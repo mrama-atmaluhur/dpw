@@ -7,3 +7,4 @@ Hasil saya menyimpulkan:
 - Penggunaan text editor
 - Belajar menulis html
 - Menulis serta membuat atribut pada html
+- Tugas: Membuat file index.html dari contoh yang sudah ada
