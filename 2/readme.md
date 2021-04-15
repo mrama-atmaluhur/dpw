@@ -6,5 +6,3 @@ Hasil saya menyimpulkan:
 - Mempelajari penggunaan github untuk absen dan pengumpulan tugas
 - Penggunaan text editor
 - Belajar menulis html
--
--
