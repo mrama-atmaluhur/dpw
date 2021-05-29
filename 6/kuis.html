@@ -1,0 +1,47 @@
+	<form>
+		<fieldset>
+			<legend>Data Pribadi</legend>
+				<table>
+				<tr>
+					<td>Nama</td>
+					<td>:</td>
+					<td><input type="text" name="txtnama" placeholder="Masukkan nama Anda"><span style="color: red">*Hanya Huruf</span></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type="text" name="txtnama" placeholder="Masukkan nama Anda"><span style="color: red">*Hanya Huruf</span></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="text" name="txtnama" placeholder="Masukkan nama Anda"><span style="color: red">*Hanya Huruf</span></td>
+				</tr>
+				<tr>
+					<td>Konfirmasi Password</td>
+					<td>:</td>
+					<td><input type="text" name="txtnama" placeholder="Masukkan nama Anda"><span style="color: red">*Hanya Huruf</span></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td></td>
+					<td><button onclick="validation">Kirim</button></td>
+				</tr>
+				</table>
+		</fieldset>
+	</form>
+<script>
+	function validation(){
+  var validasiHuruf = /^[a-zA-Z ]+$/;
+  var nama = document.getElementById("nama");
+  if (nama.value.match(validasiHuruf)) {
+     alert("Nama Anda adalah " + nama.value);
+  } else {
+     alert("Masukkan nama Anda!\nFormat wajib huruf!");
+     nama.value="";
+     nama.focus();
+     return false;
+  }
+}
+	
+</script>
